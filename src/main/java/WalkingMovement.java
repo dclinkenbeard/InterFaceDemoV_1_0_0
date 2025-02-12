@@ -1,4 +1,5 @@
-public class WalkingMovement implements Movement{
+public class
+WalkingMovement implements Movement{
 
   @Override
   public void movementMethod() {

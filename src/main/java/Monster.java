@@ -11,6 +11,17 @@ public class Monster {
   Movement movement = new WalkingMovement();
 
   @Override
+  public String toString() {
+    return "Monster{" +
+        "type='" + type + '\'' +
+        ", maxHp=" + maxHp +
+        ", strength=" + strength +
+        ", defense=" + defense +
+        ", movement=" + movement +
+        '}';
+  }
+
+  @Override
   public final boolean equals(Object o) {
     if (!(o instanceof Monster monster)) {
       return false;
