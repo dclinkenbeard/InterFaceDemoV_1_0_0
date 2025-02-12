@@ -8,7 +8,7 @@ public class Monster {
   Double strength;
   Double defense;
 
-
+  Movement movement = new WalkingMovement();
 
   @Override
   public final boolean equals(Object o) {
